@@ -120,6 +120,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     sdm.debug.disable_rotator_split=1 \
     ro.persist.qcapb = 1
 
+# Media
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.media.treble_omx=false
+
 # OpenGLES
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610
