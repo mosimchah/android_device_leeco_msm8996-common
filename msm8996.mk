@@ -341,4 +341,8 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := \
     ro.product.model
 
+# MSM8996 Headers
+PRODUCT_VENDOR_KERNEL_HEADERS := hardware/qcom/msm8996/kernel-headers
+
 $(call inherit-product-if-exists, vendor/leeco/msm8996-common/msm8996-common-vendor.mk)
+
