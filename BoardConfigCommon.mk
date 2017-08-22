@@ -58,10 +58,6 @@ TARGET_KERNEL_SOURCE := kernel/leeco/msm8996
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
 TARGET_COMPILE_WITH_MSM_KERNEL := true
-
-# QCOM hardware
-BOARD_USES_QCOM_HARDWARE := true
-
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-uart"
 
@@ -163,9 +159,6 @@ USE_OPENGL_RENDERER := true
 
 # Sensors
 USE_SENSOR_MULTI_HAL := true
-
-# Timeservice
-BOARD_USES_QC_TIME_SERVICES := true
 
 PRODUCT_BOOT_JARS += com.qti.dpmframework dpmapi com.qti.location.sdk
 
