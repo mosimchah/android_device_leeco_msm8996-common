@@ -282,4 +282,8 @@ ifeq ($(TARGET_BUILD_VARIANT),eng)
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
 endif
 
+# MSM8996 Headers
+PRODUCT_VENDOR_KERNEL_HEADERS := hardware/qcom/msm8996/kernel-headers
+
 $(call inherit-product-if-exists, vendor/leeco/msm8996-common/msm8996-common-vendor.mk)
+
