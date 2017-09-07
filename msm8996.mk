@@ -179,6 +179,7 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
+    android.hardware.gnss@1.0-impl \
     gps.msm8996 \
     libloc_eng \
     libloc_api_v02 \
