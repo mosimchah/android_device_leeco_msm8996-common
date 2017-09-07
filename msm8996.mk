@@ -169,8 +169,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint sensor
 PRODUCT_PACKAGES += \
-    fingerprintd \
-    fingerprint.msm8996
+    android.hardware.biometrics.fingerprint@2.1-service
 
 # GPS
 PRODUCT_PACKAGES += \
