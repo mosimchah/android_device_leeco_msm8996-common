@@ -203,6 +203,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:system/etc/sec_config
 
+# Gatekeeper HAL
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-impl
+
 # IPv6
 PRODUCT_PACKAGES += \
     ebtables \
