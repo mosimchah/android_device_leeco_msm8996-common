@@ -243,3 +243,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.calls.on.ims=true \
     persist.data.iwlan.enable=true \
     persist.dbg.wfc_avail_ovr=1
+
+# Media
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.media.treble_omx=false
