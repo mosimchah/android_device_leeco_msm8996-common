@@ -170,14 +170,16 @@ ifeq ($(HOST_OS),linux)
   endif
 endif
 
-# Filesystem
-TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
-
 # GPS
 TARGET_NO_RPC := true
 USE_DEVICE_SPECIFIC_GPS := true
 
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
+
+# HIDL
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
+DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
+TARGET_FS_CONFIG_GEN += $(DEVICE_PATH)/config.fs
 
 # Keystore
 TARGET_PROVIDES_KEYMASTER := true
@@ -192,7 +194,7 @@ TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
 TARGET_RIL_VARIANT := caf
 
 # Sensors
-#USE_SENSOR_MULTI_HAL := true
+USE_SENSOR_MULTI_HAL := true
 
 # Timeservice
 BOARD_USES_QC_TIME_SERVICES := true
