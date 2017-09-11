@@ -14,7 +14,7 @@ caps: BLOCK_SUSPEND
 mode: 0755
 user: AID_SYSTEM
 group: AID_SYSTEM
-caps: CAP_NET_BIND_SERVICE
+caps: NET_BIND_SERVICE
 
 [system/bin/cnss-daemon]
 mode: 0755
@@ -38,11 +38,4 @@ caps: NET_BIND_SERVICE
 mode: 0755
 user: AID_INPUT
 group: AID_SYSTEM
-caps: CAP_SYS_NICE
-
-[system/bin/mm-qcamera-daemon]
-mode: 0700
-user: AID_CAMERA
-group: AID_SHELL
 caps: SYS_NICE
-
