@@ -269,8 +269,7 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     rmnetcli \
     libxml2 \
-    libprotobuf-cpp-full \
-    rild_socket
+    libprotobuf-cpp-full
 
 # Sensors
 PRODUCT_PACKAGES += \
