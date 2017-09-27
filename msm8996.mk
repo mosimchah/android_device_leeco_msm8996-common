@@ -162,7 +162,7 @@ PRODUCT_PACKAGES += \
 #PRODUCT_PACKAGES += \
 #    Doze
 
-# For config.fs
+# For android_filesystem_config.h
 PRODUCT_PACKAGES += \
     fs_config_files
 
